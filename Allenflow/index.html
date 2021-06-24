@@ -5,7 +5,7 @@
   	    <meta charset="UTF-8">
   	    <meta name="description" content="Contact us">
   	    <meta name="keywords"    content="it, support, tech, technology">
-        <link rel="stylesheet" href="zallencss/contact.css">
+        <link rel="stylesheet" href="css/styles.css">
                <!--Para añadir caracteristicas a un solo título, colocamos .súper+el tag y en el tag deseado agragamos class="" -->
 
            
@@ -15,35 +15,39 @@
 <body>
 	<h1>Contact Us</h1>
   <h2>Please Fill the Information Below</h2>
-  <div id="centerDoc">
+    <div id="centerDoc">
 
-        <form name="Contact" action="process.php" method="post"> 
-        	     Full Name
-                <input type="text" name="Full Name" size="20">
-                         <br> <br>
-                E-Mail Adress
-                <input type ="text" name="E-Mail" size="20">
+      <form name="Contact" action="process.php" method="post"> 
+      	     Full Name
+              <input type="text" name="Full Name" size="20">
+                       <br> <br>
+              E-Mail Adress
+              <input type ="text" name="E-Mail" size="20">
+                       <br><br>
+              Username
+              <input type="text" name="Username" size="20">
+                       <br><br>
+              Please Choose the Proper Option
+              <select name="Feedback">
+              	 <option value="Feedback">Feedback</option>
+              	 <option value="Complain">Complain</option>
+              	 <option value="Inquiry">Inquiry</option>
+              	 <option value="Suggestion">Suggestion</option>
+              </select>
+              	      <br><br>
+              	                <h3>Comments</h3>
+              <textarea name="Comments" rows="10" cols="50"></textarea>
                          <br><br>
-                Username
-                <input type="text" name="Username" size="20">
-                         <br><br>
-                Please Choose the Proper Option
-                <select name="Feedback">
-                	 <option value="Feedback">Feedback</option>
-                	 <option value="Complain">Complain</option>
-                	 <option value="Inquiry">Inquiry</option>
-                	 <option value="Suggestion">Suggestion</option>
-                	</select>
-                	      <br><br>
-                	                <h3>Comments</h3>
-                <textarea name="Comments" rows="10" cols="50"></textarea>
-                           <br><br>
-                <input type="submit">
-              </form>
-            </div>
+              <input type="submit">
+      </form>
+    </div>
       <hr>                                                              
 
 <p>All rights reserved to Allen</p>
  <img src="images/frog.png">
+</body>
+
+</html>
+
 
  <!--Test-->

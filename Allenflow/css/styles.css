@@ -1,5 +1,15 @@
+
+    background: url("images/tech.jpg");
+    background-size:cover ;
+    background-position:  center;
+
+
+
 h1 {
 text-align: center; 
 color: #FFF8DC;
-
+background: #ffffff url("../images/tech.JPG") no-repeat left top fixed; 
+background-size:cover ;
+    
 }
+
